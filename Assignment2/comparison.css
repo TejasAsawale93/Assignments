@@ -1,0 +1,20 @@
+table,td,th{
+    border: 2px solid black;
+    padding: 25px;
+    font-style: normal;
+    border-collapse: collapse;
+    margin: auto;
+    color: grey;
+}
+.one{
+    background-color: aqua;
+}
+.two{
+    background-color: bisque;
+}
+.three{
+    background-color: lightgreen;
+}
+li{
+    list-style-type: circle
+}

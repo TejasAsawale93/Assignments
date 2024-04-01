@@ -1,0 +1,20 @@
+ul{
+    background-color: aqua;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#mango{
+    font-style: italic;
+}
+#guava{
+    font-style: normal;
+}
+#strawberry{
+    font-style: oblique;
+}
+#pineapple{
+    font-style: italic;
+}
+#jackfruit{
+    font-style: normal;
+}

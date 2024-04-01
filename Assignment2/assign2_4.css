@@ -1,0 +1,19 @@
+th,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    border-style: outset;
+}
+.table4{
+    border: 1px solid black;
+    height: 170px;
+    width: 480px;
+}
+tr:nth-child(even){
+    color: lightgreen;
+}
+tr:nth-child(odd){
+    color: lightseagreen;
+}

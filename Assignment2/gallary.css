@@ -1,0 +1,19 @@
+.gallary{
+    margin: 5px;
+    border: 2px solid black;
+    float: left;
+    width: 180px;
+}
+.gallary:hover{
+    border: 2px solid black;
+}
+
+.gallary img{
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+    color: black;
+}

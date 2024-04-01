@@ -1,0 +1,16 @@
+ol{
+    background-color: lightgreen;
+    background-size: cover;
+}
+.one{
+    font-weight: bolder;
+}
+.four{
+    font-weight: normal;
+}
+.seven{
+    font-weight: bold;
+}
+.ten{
+    font-weight: lighter;
+}

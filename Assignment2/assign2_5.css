@@ -1,0 +1,20 @@
+.music{
+    color:darkcyan;
+}
+.sport{
+    color: darkcyan;
+}
+.news{
+    color: darkcyan;
+}
+.travel{
+    color:darkcyan;
+}
+ol{
+    background-color: orange;
+    text-align: left;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    color: lightgray;
+}

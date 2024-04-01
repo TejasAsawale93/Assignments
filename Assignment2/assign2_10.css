@@ -1,0 +1,12 @@
+.table10{
+    border: 3px solid black;
+    background-color: lightgrey;
+    table-layout: fixed;
+    text-align: center;
+    border-collapse: collapse;
+}
+th, td{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid black;
+}
