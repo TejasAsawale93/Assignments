@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Web Page</title>
+    <link rel="stylesheet" href="./1Assignment.css">
+    <style>
+        a:link{
+            color: brown;
+            text-decoration:none;
+            padding: 5px;
+            background-color: azure;
+            }
+
+        a:hover{
+            font-size: larger;
+
+        }
+
+        a:active{
+            background-color: black;
+            color: white;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: brown;
+        }
+
+        a.buttonTag1.link{
+            text-decoration: none;
+            padding: 3px 10px 5px 15px;
+            background-color: orangered;
+            color: green;
+            border: 1px solid black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+        }
+
+        a.buttonTag1.hover{
+            background-color: brown;
+            color: bisque;
+        }
+
+        a.buttonTag1.active{
+            background-color: red;
+        }
+
+        a.buttonTag1.visited{
+            background-color: orangered;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div id="PageTop"></div>
+    <h1 id="demoID">Simple HTML Page</h1>
+    <h1 style="text-align: center;"><a href="ShowImage">Click me to show image info</a></h1>
+    <h1 id="demoID" class="font-family">ID</h1>
+    <h1>This is a simple portfolio website</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, maiores.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, maiores.
+    </p>
+    <a href="https://www.google.com" target="_blank"></a><br>
+    <a href="http://127.0.0.1:5500/3AnchorIDClass.html" class="buttonTag1"></a><br>
+    <a href="nature.jpg" class="buttonTag1" id="#ShowImage"><img src="./nature.jpg" alt="image not shown" height="400px" width="400px"></a>
+</body>
+</html>
