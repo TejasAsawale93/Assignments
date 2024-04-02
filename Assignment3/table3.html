@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3- table 2</title>
+    <link rel="stylesheet" href="table3.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Header Column 1</th>
+            <th>Header Column 2</th>
+            <th>Header Column 3</th>
+            <th>Header Column 4</th>
+        </tr>
+        <tr>
+            <td colspan="1" rowspan="2">Row 2 -Item 1</td>
+            <td colspan="1" rowspan="2">Row 2 -Item 2</td>
+            <th>Row 2:Nested Table</th>
+            <td rowspan="1">
+                <pre>
+Row 2-Item 4 
+A Second line
+                </pre>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2">
+                <table>
+                    <tr>
+                        <th>Row 1 Header</th>
+                        <th colspan="2">Item</th>
+                    </tr>
+                    <tr>
+                        <th>Row 2 Header</th>
+                        <th colspan="2">Item</th>
+                    </tr>
+                    <tr>
+                        <th>Row 3 Header</th>
+                        <th colspan="2">Item</th>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>Row 3-Item 1</td>
+            <td>Row 3-Item 2</td>
+            <td rowspan="2">Row 3-Item 3</td>
+        </tr>
+        <tr>
+            <td>Row 4-Item 4</td>
+            <td>Row 4-Item 2</td>
+            <td>Row 4-Item 3</td>
+        </tr>
+    </table>
+</body>
+</html>

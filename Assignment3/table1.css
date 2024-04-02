@@ -1,0 +1,16 @@
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 6px;
+}
+th{
+    background-color: rgb(125, 176, 48);
+    color: white;
+}
+tr{
+    background-color: rgb(199, 235, 167);
+}
+td:nth-child(even){
+    background-color: rgb(213, 237, 156);
+} 
