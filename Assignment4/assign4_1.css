@@ -1,0 +1,24 @@
+table,th{
+    border: 1px solid black;
+}
+.Out-Container{
+    border: 3px solid white;
+    background-image: url(./paint.jpg);
+    height: 100px;
+    width: 600px;
+    border-style: ridge;
+}
+.transbox{
+    border: 2px solid white;
+    margin: 30px;
+    opacity: 0.6;
+}
+.paraclass{
+    margin: 20px;
+}
+.paraclass::first-letter{
+    color: orangered;
+}
+.paraclass::first-line{
+    color: orange;
+}
